@@ -145,7 +145,7 @@ public class Calculate {
       double ar=length*breadth;
       return ar;
     }
-    public static double Perimeter_Area(double length,double breadth){
+    public static double Rectangle_Perimeter(double length,double breadth){
       double per=2*(length+breadth);
       return per;
     }
