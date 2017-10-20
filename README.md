@@ -35,7 +35,6 @@ dependencies {
 Calculate.Hypotenuse(adjacent_side,opposite_side);
 Calculate.Body_Mass_Index(bodyweight_in_KG,height_in_m);
 Calculate.Geometric_Progression(first_term,common_difference,nth_term);
-Calculate.Geometric_Progression(first_term,common_difference,nth_term);
 Calculate.Arithmetic_Progression(first_term,common_difference,nth_term).getSumofnthtermofAP();
 Calculate.Arithmetic_Progression(first_term,common_difference,nth_term).getnthtermofAP();
 Calculate.Check_Number_is_Prime_or_Not(number);
@@ -91,6 +90,11 @@ This line returns the result in double. For example double area=Calculate.Volume
 Calculate.Volume_of_Cube(15);;
 ```
 This line returns the result in double. For example double area=Calculate.Volume_of_Cube(15);
+
+```
+Calculate.Geometric_Progression(2,2,10);
+```
+This line returns the result in int. For example int gp=Calculate.Geometric_Progression(2,2,10);
 
 For find Arithmetic_Progression
 
